@@ -1,0 +1,15 @@
+diff --git a/res/values/config.xml b/res/values/config.xml
+index 746d3e7d85..ec8e0893c8 100755
+--- a/res/values/config.xml
++++ b/res/values/config.xml
+@@ -153,7 +153,9 @@
+     </string-array>
+ 
+     <!-- List of packages that should be whitelisted for slice uri access. Do not translate -->
+-    <string-array name="slice_whitelist_package_names" translatable="false"/>
++    <string-array name="slice_whitelist_package_names" translatable="false">
++        <item>com.example.wifislices</item>
++    </string-array>
+ 
+     <!-- Whether or not App & Notification screen should display recently used apps -->
+     <bool name="config_display_recent_apps">true</bool>
