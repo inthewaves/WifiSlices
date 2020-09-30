@@ -31,7 +31,7 @@ example app for its Slices. See [whitelist-wifislices-app.patch](whitelist-wifis
 To apply this patch, run from the AOSP root:
 
     $ cd packages/app/Settings
-    $ git apply < whitelist-wifislices-app.patch
+    $ git apply < /path/to/whitelist-wifislices-app.patch
 
 Build the Settings app and install it onto the device. Then, install/open this app.
 
